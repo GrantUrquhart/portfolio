@@ -1,0 +1,142 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\rando\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\rando\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[info] Updated file E:\2_Career\GitHub_Portfolio_Site\template_fromHTML5UpNet\project\project\build.properties: set sbt.version to 1.5.8
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.8 (Amazon.com Inc. Java 11.0.13)
+[debug]       Load.loadUnit: plugins took 145.6932ms
+[debug]       Load.loadUnit: defsScala took 0.423ms
+[debug] [Loading] Scanning directory C:\Users\rando\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\rando\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 31.6927 ms
+[debug]           Load.resolveProject(global-plugins) took 76.6558ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\rando\.sbt\1.0\plugins, plugins: List(<none>))) took 146.6312ms
+[debug] [Loading] Done in C:\Users\rando\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 179.3748ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.5971ms
+[debug]     Load.loadUnit(file:/C:/Users/rando/.sbt/1.0/plugins/, ...) took 340.5378ms
+[debug]   Load.apply: load took 636.2804ms
+[debug]   Load.apply: resolveProjects took 9.8569ms
+[debug]   Load.apply: finalTransforms took 91.1718ms
+[debug]   Load.apply: config.delegates took 13.6523ms
+[debug]   Load.apply: Def.make(settings)... took 623.1412ms
+[debug]   Load.apply: structureIndex took 154.7643ms
+[debug]   Load.apply: mkStreams took 2.4172ms
+[info] loading global plugins from C:\Users\rando\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 10175.6641ms
+[debug]           Load.loadUnit: plugins took 55.7639ms
+[debug]           Load.loadUnit: defsScala took 0.0101ms
+[debug] [Loading] Scanning directory E:\2_Career\GitHub_Portfolio_Site\template_fromHTML5UpNet\project\project
+[debug]             Load.loadUnit: mkEval took 82.5124ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\2_Career\GitHub_Portfolio_Site\template_fromHTML5UpNet\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.7244 ms
+[info] loading settings for project project-build from idea.sbt ...
+[debug]               Load.resolveProject(project-build) took 4.3056ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id project-build, base: E:\2_Career\GitHub_Portfolio_Site\template_fromHTML5UpNet\project\project, plugins: List(<none>))) took 7.8639ms
+[debug] [Loading] Done in E:\2_Career\GitHub_Portfolio_Site\template_fromHTML5UpNet\project\project, returning: (project-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3951.5113ms
+[debug]           Load.loadUnit: cleanEvalClasses took 9.9625ms
+[debug]         Load.loadUnit(file:/E:/2_Career/GitHub_Portfolio_Site/template_fromHTML5UpNet/project/project/, ...) took 4018.9572ms
+[debug]       Load.apply: load took 4021.069ms
+[debug]       Load.apply: resolveProjects took 0.2934ms
+[debug]       Load.apply: finalTransforms took 15.3199ms
+[debug]       Load.apply: config.delegates took 0.5096ms
+[debug]       Load.apply: Def.make(settings)... took 138.606ms
+[debug]       Load.apply: structureIndex took 29.3087ms
+[debug]       Load.apply: mkStreams took 0.0045ms
+[info] loading project definition from E:\2_Career\GitHub_Portfolio_Site\template_fromHTML5UpNet\project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 6449.2118ms
+[debug]     Load.loadUnit: defsScala took 0.0037ms
+[debug] [Loading] Scanning directory E:\2_Career\GitHub_Portfolio_Site\template_fromHTML5UpNet\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\2_Career\GitHub_Portfolio_Site\template_fromHTML5UpNet\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.9446 ms
+[debug]         Load.resolveProject(project) took 54.7689ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id project, base: E:\2_Career\GitHub_Portfolio_Site\template_fromHTML5UpNet\project, plugins: List(<none>))) took 58.0815ms
+[debug] [Loading] Done in E:\2_Career\GitHub_Portfolio_Site\template_fromHTML5UpNet\project, returning: (project)
+[debug]     Load.loadUnit: loadedProjectsRaw took 59.4913ms
+[debug]     Load.loadUnit: cleanEvalClasses took 0.0262ms
+[debug]   Load.loadUnit(file:/E:/2_Career/GitHub_Portfolio_Site/template_fromHTML5UpNet/project/, ...) took 6509.6992ms
+[debug] Load.apply: load took 6512.6404ms
+[debug] Load.apply: resolveProjects took 0.3244ms
+[debug] Load.apply: finalTransforms took 79.661ms
+[debug] Load.apply: config.delegates took 0.8832ms
+[debug] Load.apply: Def.make(settings)... took 110.9941ms
+[debug] Load.apply: structureIndex took 29.7168ms
+[debug] Load.apply: mkStreams took 0.0039ms
+[info] set current project to project (in build file:/E:/2_Career/GitHub_Portfolio_Site/template_fromHTML5UpNet/project/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 55488 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 55488, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to project (in build file:/E:/2_Career/GitHub_Portfolio_Site/template_fromHTML5UpNet/project/)
+[debug] > Exec(idea-shell, None, None)

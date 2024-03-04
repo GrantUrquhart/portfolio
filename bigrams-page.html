@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Bigrams Search Engine</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="title">Home</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="about-me-page.html">About Me</a></li>
+							<li><a href="resume-page.html">Resume</a></li>
+							<li><a href="bfs-game-page.html">Breadth-First Search Game</a></li>
+							<li><a href="bigrams-page.html">Bigrams Search Engine</a></li>
+							<li><a href="grovepi-iot-page.html">Environmental and Motion Sensing Project</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Bigrams Search Engine</h1>
+							<h6>Github repository link: <a href="https://github.com/GrantUrquhart/bigrams-search-engine/tree/main">https://github.com/GrantUrquhart/bigrams-search-engine/tree/main</a></h6>
+							
+							<h6>Overview:</h6>
+							<p>In this project, I developed a search engine that allows users to search for bigrams (pairs of adjacent words) in a corpus of documents. The engine processes a JSONL file containing documents with their respective titles and text, extracts all bigrams found in the title or text, and creates a corpus file with these bigrams. Users can then search for specific bigrams, and the engine returns the relevant document information, including document ID, frequency of the bigram, and the text snippet where the bigram was found.</p>
+							<span class="image main">
+								<img src="images/bigramsOutput1.PNG" alt="">
+								<p>Example output of the Bigram Search Engine project.</p>
+							</span>
+							<h6>Key Features:</h6>
+					<ul>
+					<li><strong>Bigram Extraction:</strong> Developed a tokenizer that efficiently extracts bigrams from the document corpus.</li>
+					<li><strong>Index Creation:</strong> Implemented an indexing process that stores bigrams along with their frequencies and document IDs.</li>
+					<li><strong>Search Functionality:</strong> Created a search interface that allows users to input bigrams and retrieve matching documents.</li>
+					</ul>
+
+					<h6>Challenges Faced:</h6>
+					<ul>
+					<li><strong>Efficient Indexing:</strong> Designing an indexing mechanism that could handle a large corpus of documents while ensuring quick search responses was a significant challenge. I overcame this by optimizing the data structures used for storing the index.</li>
+					<li><strong>Tokenization:</strong> The tokenization process needed to be robust to handle various document formats and languages. I addressed this by implementing a flexible tokenizer that could be easily adjusted for different input types.</li>
+					</ul>
+
+					<h6>Technologies Used:</h6>
+					<ul>
+					<li>Python for the backend processing and search functionality.</li>
+					<li>JSONL for storing the document corpus.</li>
+					</ul>
+
+					<h6>What I Learned:</h6>
+					<ul>
+					<li><strong>Data Structure Optimization:</strong> This project deepened my understanding of data structures and their impact on the performance of search algorithms.</li>
+					<li><strong>Natural Language Processing:</strong> I gained practical experience in NLP techniques, particularly in tokenization and text processing.</li>
+					<li><strong>Software Engineering Best Practices:</strong> Working on this project helped me improve my coding practices, including writing clean, maintainable code and effectively debugging complex issues.</li>
+					</ul>
+
+					<h6>Conclusion:</h6>
+					<p>The Bigram Search Engine project was a valuable experience in developing a practical application of natural language processing and search algorithms. It not only enhanced my technical skills but also provided insights into the challenges of working with large text datasets and the importance of optimization in search engines.</p>
+
+					</div>
+				</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<section>
+						<h3>Contact</h3>
+						<p><a href="mailto:granturquhart3@gmail.com">granturquhart3@gmail.com</a></p>
+					</section>
+					<section>
+						<h2>Connect</h2>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/guchicago/" class="icon brands style2 fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</section>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
